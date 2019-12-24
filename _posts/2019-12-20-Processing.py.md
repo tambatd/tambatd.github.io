@@ -6,7 +6,7 @@ color: primary
 description: How to program in Processing.py and some example projects!.
 ---
 
-Source: [Me]
+Source: Me!
 
 In this mini tutorial I'll teach you the basics of Processing.py!
 
