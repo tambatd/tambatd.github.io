@@ -12,21 +12,21 @@ remote_theme       : YoussefRaafatNasry/portfolYOU@v2.0.0   # uncomment this if 
 author:
   name              : Devendra Tambat
   image             : #https://bit.ly/2KCvgVJ
-  behance           : your_username
+#  behance           : your_username
 # dribbble          : your_username
   email             : tambatd@outlook.com
   facebook          : your_username
-  github            : your_username
+  github            : tambatd
 # gitlab            : your_username
 # instagram         : your_username
   linkedin          : your_username
-  medium            : your_username
+  medium            : DeveTambat
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+  twitter           : DeveTambat
 # vimeo             : your_username
 # youtube           : your_channel_name
 
