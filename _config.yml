@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Devendra Tambat
 description         : >-                               # >- means to ignore newlines until "url:"
                       "I like to make stuff"
 
@@ -11,15 +11,15 @@ remote_theme       : YoussefRaafatNasry/portfolYOU@v2.0.0   # uncomment this if 
 ### Author Info ###
 author:
   name              : Devendra Tambat
-  image             : #https://bit.ly/2KCvgVJ
+  image             : https://github.com/tambatd/tambatd.github.io/blob/master/docs/IMG_20190729_150308%20(2).jpg
 #  behance           : your_username
 # dribbble          : your_username
   email             : tambatd@outlook.com
-  facebook          : your_username
+#  facebook          : your_username
   github            : tambatd
 # gitlab            : your_username
 # instagram         : your_username
-  linkedin          : your_username
+  linkedin          : devendratambat
   medium            : DeveTambat
 # soundcloud        : your_username
 # spotify           : your_username
