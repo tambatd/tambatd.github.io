@@ -7,8 +7,8 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-I started out scripting batch files in elementary school, and from there moved to Arduino projects in middle school. A couple Kickstarters here and there, falling in love with Japanese product design and art in high school, and here I am!   
+Hi I'm **{{ site.author.name }}** :wave:<br>
+I started out scripting batch files in elementary school, and from there moved to Arduino projects in middle school. A couple Kickstarters and failing businesses here and there, falling in love with Japanese product design and art in high school, and here I am!   
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
