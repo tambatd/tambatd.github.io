@@ -2,57 +2,135 @@
 <html lang="en">
 <head>
     <style>
-           a:link {
-                    color: #C0C0C0;
-                    }
-                    a:visited {
-  color: #C0C0C0;
+             .login{
+     height: 200px;
+    width: 350px;
+    background-color: #C1C0C1;
+    border-top: #FFFFFF 3px solid;
+    border-left: #FFFFFF 3px solid;
+    border-bottom: #000000 3px solid;
+    border-right: #000000 3px solid;
+   margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
 }
-            html{
-                  background-color: #008282;
-                  color: #ffffff;
-                  letter-spacing: 1.50px;
-                  font-family: W95FA;
-            }
-          
-            @font-face {
-                        font-family: W95FA;
-                        src: url("fonts/W95FA.otf") format("opentype");
-                        }           
+
+
+ .banner {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap; 
+    height: 30px;
+    width: 100%;
+    background-color: #000888;
+    top: 0;
+  }
+
+
+  .title {
+    margin: 0;
+    top: 50%;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    padding-left: 3px;
+  }
+
+
+html{background-color: #008282;
+color: #f1f1f1;
+letter-spacing: 1.5px;
+font-family: W95FA;
+ overflow-x: hidden;
+ overflow-y: hidden;
+ max-width: 1080px;
+ 
+}
+
+@font-face {
+font-family: W95FA;
+src: url("https://cdn.glitch.com/ab2515f5-46a5-4d6b-9757-b7f6f20cc638%2FW95FA.otf?v=1629837049242") format("opentype"),
+     url('https://cdn.glitch.com/ab2515f5-46a5-4d6b-9757-b7f6f20cc638%2FW95FA.otf?v=1629837049242')  format('truetype');
+}
+
+
+ .app {
+    background-color: #C3C3C3;
+    height: 95%;
+    width: 100%;
+    position:absolute;
+    color: #000000;
+}
+
+.content{
+      padding-left: 5px;
+  }
+
+.button{
+    
+    height: 25px;
+    width: 150px;
+    background-color: #C1C0C1;
+    border-top: #FFFFFF 3px solid;
+    border-left: #FFFFFF 3px solid;
+    border-bottom: #000000 3px solid;
+    border-right: #000000 3px solid;
+    text-align: center;
+    margin-left: 90px;
+  margin-top: 25px
+
+}
+
+.l1{
+  margin-top: 5px;
+   height: 20px;
+    width: 300px;
+    background-color: #FFFFFF;
+    border-bottom: #FFFFFF 3px solid;
+    border-right: #FFFFFF 3px solid;
+    border-top: #000000 2px solid;
+    border-left: #000000 2px solid;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h2>🌸 Hello 🌸</h2>
-    <hr>
-
-    <ul>
-        <li><p>Twitter: <a href="https://twitter.com/iotambat">@iotambat </a>🐦</p>
-            
-        </li> 
-        <li>   <p>Github: <a href="https://github.com/tambatd">@tambatd </a>💾</p> 
-        </li>
-    </ul>
-        <hr>
-
-    <h2>Projects:</h2>
-    <ul>
-        <li>Discover New Japanese Artists via <a href="https://japanify.io/">Japanify</a> 🎌</li>
-        <li>View all the places you've visited while playing PS4 via <a href="http://www.pspassport.net/">PSpassport</a> 🎮</li>
-        <li>What if Elon Musk named you? <a href="http://elonmusknamegenerator.com/">Via Elon Musk Name Generator</a> 🚗 </li>
-
-    </ul>
-        <hr>
-
-    <h2>Fun facts:</h2>
-    <ul>
-        <li>I'm in the top <b>13%</b> of Destiny pvp players</li>
-        <li>I speak 3 different languages; trying to learn 2 more!</li>
-        <li>Big fan of pixel art, especially <a href="https://twitter.com/yacoyon">@yacoyon </a></li>
-    </ul>
-        <hr>
-
+   
+<div class="login">
+     <div class="banner">
+          <div><p class="title">Welcome.exe</p></div>
+    </div>
+      <div>
+                            <div class="content">
+                               <p>
+                                Click the button to login
+                              <p>
+                                 <div class="l1">
+                              <a>Username</a>
+                              </div>
+                               <div class="l1">
+                              <a>************</a>
+                              </div>
+                              <div class="button">
+                              <a href="https://tambat.dev/about/">Login</a>
+                              </div>
+                            </div>
+                        </div>
+    </div>
+    
 </body>
 </html>
